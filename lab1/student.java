@@ -64,20 +64,19 @@ public class student {
     }
 
     public static  void main(String[] args) throws IOException {
-        student[] s1=new student[5];
+        student s1=new student();
         student s2=new student();
         int n=3;
         for(int i=0;i<=n;i++){
             System.out.println(s2  );;
         }
 
-//        s1.getAnnualFee();
-//        s1.DataOut();
-//        s1.getTotalMarks();
-
-//        s1.getAverageMarks();
-//        s1.getResult();
-//        s2.studentDetails();
+        s1.getAnnualFee();
+        s1.DataOut();
+        s1.getTotalMarks();
+        s1.getAverageMarks();
+        s1.getResult();
+        s2.studentDetails();
 
     }
 
